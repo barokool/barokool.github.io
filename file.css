@@ -1,0 +1,165 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+body {
+    color: #464646;
+    font-family:candara,sans-serif;
+    background:#f4f7f6;
+}
+
+header {
+	background: black;
+	height: 90px;
+	font-size: 20px;
+}
+
+.submenu img {
+
+	margin-left:100px;
+	width: 10%;
+	justify-content: center;
+	align-items: center;
+	display:flex;
+}
+.submenu {
+	margin-right:80px;
+	line-height: 85px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ul {
+	flex:1;
+	text-align: right;
+}
+.ul li {
+	display: inline-block;
+	
+	list-style: none;
+	margin: 0 25px;
+}
+.ul li a{
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+}
+.ul a:hover{
+	color:#cbcbe3;
+}
+
+
+
+.body h1{
+    line-height: 150px;
+    text-align: center;
+    font-size: 2.1428571429rem;
+    font-weight: 700;
+
+}
+.p1 {
+    line-height: 1.8;
+    top: 0;
+    left:0;
+    margin-left: 200px;
+    margin-right: 500px;
+    font-size: 1.2rem;
+
+}
+.htd {
+    width: 550px;
+    height: 400px;
+    margin-left:50px;
+    max-width: 100%;
+}
+.qkd {
+    width: 600px;
+    height: 450px;
+    margin-left:50px;
+    max-width: 100%;
+}
+.htdtittle{
+    margin-left: 220px;
+    color: #686868;
+    font-size: 13px;
+    
+    line-height: 1.6153846154;
+    padding-top: 10px;
+}
+.qkdtittle {
+    margin-left: 250px;
+    color: #686868;
+    font-size: 13px;
+    line-height: 1.6153846154;
+    padding-top: 0px;
+}
+.hthttittle {
+    margin-left: 80px;
+    color: #686868;
+    font-size: 13px;
+    line-height: 1.6153846154;
+    padding-top: 0px;
+}
+.qkhttittle {
+    margin-left: 140px;
+    color: #686868;
+    font-size: 13px;
+    line-height: 1.6153846154;
+    padding-top: 0px;
+}
+
+.sidebar {
+    background: yellow;
+    top:0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    display:none;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    margin: 40px;
+    
+}
+
+.information li{
+    list-style: none;
+    font-size: 15px;
+    margin-left:150px;
+    
+}
+
+.contact  li {
+   
+   display:inline-block;
+
+}
+.contact a{
+     color: black;
+     margin:5px;
+     font-size: 20px;
+     
+}
+.contact a i {
+    width:45px;
+}
+
+#address{
+    font-size: 17px;
+}
+
+.contact {
+    float:right;
+    
+}
+h5 {
+    text-align: center;
+}
